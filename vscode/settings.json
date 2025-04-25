@@ -1,0 +1,27 @@
+{
+    // Developement Environment Settings Albert Sodel
+    // General Editor Settings
+    "workbench.colorTheme": "Default Dark Modern",
+    "files.autoSave": "afterDelay",
+    "editor.minimap.enabled": true,
+    "editor.fontSize": 14,
+    "editor.mouseWheelZoom": true,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
+    // Hide irrelevant files and folders in the Explorer
+    "files.exclude": { // Hide files and folders
+        "**/__pycache__": true,
+        "**/.idea": true,
+        "**/.git": true,
+        "**/.ipynb_checkpoints": true,
+        "**/.mypy*": true,
+        "**/uv.lock": true,
+        "**/.pytest_cache": true
+    },
+    // Python Settings
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true
+    }
+}

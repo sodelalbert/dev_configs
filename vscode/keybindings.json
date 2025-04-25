@@ -1,0 +1,27 @@
+[
+    //Zooming in and out
+    {
+        "key": "cmd+=",
+        "command": "editor.action.fontZoomIn",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+-",
+        "command": "editor.action.fontZoomOut",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+0",
+        "command": "editor.action.fontZoomReset",
+        "when": "editorTextFocus"
+    },
+    // Open settings.json file
+    {
+        "key": "cmd+,",
+        "command": "workbench.action.openSettingsJson"
+    },
+    {
+        "key": "cmd+k cmd+s",
+        "command": "workbench.action.openGlobalKeybindingsFile"
+    }
+]
